@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "564446348138",
+    "project_id": "thecodyapp-backend-5c088",
+    "storage_bucket": "thecodyapp-backend-5c088.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564446348138:android:4972e6324502f79e8f1b13",
+        "android_client_info": {
+          "package_name": "com.example.thecodyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564446348138-hf73iebgcnqhpeq4971845nretclna8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thecodyapp",
+            "certificate_hash": "fd4e3128e368c4b39493efe2143c3d7e4bc37e7f"
+          }
+        },
+        {
+          "client_id": "564446348138-j2vm3m5id4mbsm0spki3bfh2temth2qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeQUjM4BTzfHbDSsHIVzGsZW827p79lJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564446348138-j2vm3m5id4mbsm0spki3bfh2temth2qf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "564446348138-bapcdn5q5fobqvvk9f611uhse497el8p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.thecodyapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
