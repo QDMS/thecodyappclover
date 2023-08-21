@@ -148,7 +148,7 @@ class _CheckoutMethodBankState extends State<CheckoutMethodBank> {
     return Scaffold(
         appBar: AppBar(
           title: Text(
-            "Car Details",
+            "Card Details",
           ),
           centerTitle: true,
           elevation: 0.0,
