@@ -6,6 +6,9 @@ class Constss {
     'assets/offers/offer2.jpg',
     'assets/offers/offer3.jpg',
     'assets/offers/offer4.jpg',
+    'assets/offers/offer5.jpg',
+    'assets/offers/offer6.jpg',
+    'assets/offers/offer7.jpg',
   ];
 
   static List<String> loginImages = [
@@ -14,6 +17,4 @@ class Constss {
     'assets/signin/3.jpg',
     'assets/signin/4.jpg',
   ];
-
-  
 }

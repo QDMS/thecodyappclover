@@ -39,19 +39,19 @@ class _HomeScreenState extends State<HomeScreen> {
                 itemBuilder: (BuildContext context, int index) {
                   return Image.asset(
                     Constss.offerImages[index],
-                    fit: BoxFit.cover,
+                    fit: BoxFit.fill,
                   );
                 },
                 autoplay: true,
                 duration: 1000,
                 itemCount: Constss.offerImages.length,
-                pagination: const SwiperPagination(
-                  alignment: Alignment.bottomCenter,
-                  builder: DotSwiperPaginationBuilder(
-                    color: tabLabelColor,
-                    activeColor: tabColor,
-                  ),
-                ),
+                // pagination: const SwiperPagination(
+                //   alignment: Alignment.bottomCenter,
+                //   // builder: DotSwiperPaginationBuilder(
+                //   //   color: tabLabelColor,
+                //   //   activeColor: tabColor,
+                //   // ),
+                // ),
                 // control: SwiperControl(),
               ),
             ),
@@ -102,7 +102,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: SizedBox(
                     height: size.height * 0.24,
                     child: ListView.builder(
-                      itemCount: productsOnSale.length < 10 ? productsOnSale.length : 10,
+                      itemCount: productsOnSale.length < 10
+                          ? productsOnSale.length
+                          : 10,
                       scrollDirection: Axis.horizontal,
                       itemBuilder: (ctx, index) {
                         return ChangeNotifierProvider.value(

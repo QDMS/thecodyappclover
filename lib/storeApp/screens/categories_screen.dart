@@ -18,28 +18,28 @@ class CategoriesScreen extends StatelessWidget {
   ];
   List<Map<String, dynamic>> catInfo = [
     {
-      'imgPath': 'assets/codyCable.png',
-      'catText': 'Cody Tv',
+      'imgPath': 'assets/members.png',
+      'catText': 'Members',
     },
     {
-      'imgPath': 'assets/cbdEat.png',
-      'catText': 'CBD Edibles',
+      'imgPath': 'assets/tv.png',
+      'catText': 'TVs',
     },
     {
-      'imgPath': 'assets/cbdOil.png',
-      'catText': 'CBD Oil & Flower',
+      'imgPath': 'assets/computers.png',
+      'catText': 'Computers',
     },
     {
       'imgPath': 'assets/gadgets.png',
       'catText': 'Miscellaneous',
     },
     {
-      'imgPath': 'assets/vapes.png',
-      'catText': 'Vapes',
+      'imgPath': 'assets/network.png',
+      'catText': 'Network',
     },
     {
-      'imgPath': 'assets/kratom.png',
-      'catText': 'Kratom',
+      'imgPath': 'assets/he.png',
+      'catText': 'Home Entertainment',
     },
   ];
 
