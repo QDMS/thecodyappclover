@@ -66,11 +66,11 @@ class _CartWidgetState extends State<CartWidget> {
                   color: Theme.of(context).cardColor.withOpacity(0.3),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: Row(
+                child: Wrap(
                   children: [
                     Container(
-                      height: size.width * 0.25,
-                      width: size.width * 0.25,
+                      height: size.width * 0.23,
+                      width: size.width * 0.21,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(12),
                       ),
@@ -90,7 +90,7 @@ class _CartWidgetState extends State<CartWidget> {
                           child: TextWidget(
                             text: getCurrentProduct.title,
                             color: Colors.white,
-                            textSize: 20,
+                            textSize: 16,
                             isTitle: true,
                           ),
                         ),
